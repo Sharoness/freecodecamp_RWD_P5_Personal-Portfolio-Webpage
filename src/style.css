@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+  padding-top: 82px;
+  color: #f2f2f2;
+}
+h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  font-size: 200%;
+  text-align: center;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+}
+p {
+  font-size: 100%;
+  text-align: center;
+}
+section {
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0px 2px 6px hsl(0, 100%, 22%);
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: hsl(0, 100%, 22%);
+}
+#navbar a {
+  text-decoration: none;
+  float: right;
+  display: block;
+  padding: 2rem;
+  color: #f2f2f2;
+}
+#navbar a:hover {
+  background-color: hsl(220, 60%, 21%);
+}
+ul {
+  list-style: none;
+  display: list-item;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#welcome-section {
+  background-color: hsl(220, 40%, 8%);
+  text-align: center;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#projects {
+  background-color: hsl(220, 40%, 8%);
+  text-align: center;
+}
+.project-tile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+img {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border: 15px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contact {
+  background-color: hsl(220, 40%, 8%);
+  text-align: center;
+}
+#profile-link {
+  color: #f2f2f2;
+}
